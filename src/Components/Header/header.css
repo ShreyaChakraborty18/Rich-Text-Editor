@@ -1,0 +1,28 @@
+.Header{
+    width: 100%;
+    height: 3.5rem;
+    background-image: linear-gradient(to right, #c22ed0, #3f89ff, #00bcff, #00dfff, #5ffae0);
+    display: flex;
+    position: sticky;
+    top: 0;
+    justify-content: space-between;
+}
+.logo{
+    color: white;
+    margin-bottom: 3.5rem;
+    margin-left: 0.5rem;
+    margin-top: 0.85rem;
+}
+.github{
+    color: black;
+    float: right;
+    margin-right: 0.5rem;
+}
+
+.github>a{
+    color: black;
+    float: right;
+    margin-right: 0.5rem;
+    margin-top: 1.2rem;
+    font-size: 20px;
+}
